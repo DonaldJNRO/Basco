@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    font-size: 21px;
+}
+.first-container{
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    height: 105px;
+    background: #8b1310;
+    width: 110%;
+    padding: 33px 30px;
+    top: 0;
+    position: fixed;
+    z-index: 99;
+    color: white;
+}
+.site-items{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    flex-wrap: wrap;
+}
+li{
+    list-style-type: none;
+}
+.about-us{
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 160px;
+    margin: auto;
+    line-height: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+.body{
+    display: flex;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 360px;
+    padding: 45px 20px 50px 20px;
+    box-shadow:  4px 0 27px rgb(2 3 8 / 20%);
+    margin: auto;
+}
+.body-note{
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 20px;
+}
+.main-class{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+   
+}
+.best{
+    padding-bottom: 2px;
+    font-size: 20px;
+    width: 108%;
+    font-family: 'Raleway', sans-serif;
+}
+.about-img{
+    flex: 1;  
+}
+.second-container{
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    font-family: 'Raleway', sans-serif;
+}
+.thrid-container{
+    background: url(../img/bg.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 223px;
+    padding-top: 323px;
+    font-family: 'Raleway', sans-serif;
+}
+.footer{
+    background-color: #540705;
+}
+.social-icons{
+    padding: 45px 20px 50px 20px;
+    width: 50%;
+    height: 170px;
+    border-bottom: 1px solid #814948;
+    margin: auto;    
+}
+ul.social_icon li a {
+    background: #fff;
+    color: #540705;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 53px;
+    border-radius: 100%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.social_icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-footer{
+    margin-top: 20px;
+    padding: 45px 20px 50px 20px;
+    width: 90%;
+    height: 450px;
+    margin: auto;
+    border-bottom: 1px solid #814948;
+    display: flex;
+}
+.basco-text{
+    flex: 1px;
+    color: white;
+    padding-top: 25px;
+    line-height: 30px;
+
+}
+.explore{
+    justify-content: center;
+    flex: 1px;
+    color: white;
+    padding-top: 25px;
+    line-height: 30px;
+    list-style-type: circle;
+
+}
+.recent-post{
+    flex: 1px;
+    color: white;
+    padding-top: 25px;
+    line-height: 30px;
+
+}
+.recent-img{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+}
+.contact-us{
+    flex: 1px;
+    color: white;
+    padding-top: 25px;
+    line-height: 30px;
+
+}
+.foot-li{
+    width: 200px;
+    border: 4px solid green;
+    font-size: 14px;
+}
+.li-cirlce{
+    height: 50%;
+    width: 50%;
+    background: white;
+}
+.explore ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.explore h3{
+    text-align: center;
+}
+
+.explore ul li{
+    list-style-type: disc;
+   font-size:40px;
+}
+.explore ul li span{
+    font-size: 20px;
+}
+#home{
+    margin-top: 20px;
+}
+.copy-right{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    height: 50px;
+}
+.container{
+    height: 600px;
+}
+.read{
+    margin-top: 20px;
+}
+.btn-read-more{
+    width: 100px;
+    height: 41px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #8b1310;
+}
+.btn-read-more:hover{
+    background:#fe9a0c;
+    color: white;
+}
+.items{
+    list-style-type: none;
+    font-weight: 700;
+    height: 30px;
+    padding-top: 7px;
+
+}
+.items a{
+    color: white;
+    text-decoration: none;
+}
+.site-ul{
+    font-size: 40px;
+    margin-top: -17px;
+}
+.yellow{
+    color: #fe9a0c;
+}
